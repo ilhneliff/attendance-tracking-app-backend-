@@ -1,8 +1,8 @@
 ﻿namespace NonattendanceApp.DTOs;
 
-public class NoAttendanceRequest
+public class AttendanceDto
 {
     public int ClassId  { get; set; }
-    public int ClassName { get; set; }
     public DateTime Date { get; set; }
+    public int StudentId { get; set; }
 }

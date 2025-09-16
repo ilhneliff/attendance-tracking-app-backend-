@@ -1,6 +1,6 @@
 ﻿namespace NonattendanceApp.Services;
 
-public interface ITokenServive
+public interface ITokenService
 {
-    string To
+    string CreateToken(Student student);
 }
